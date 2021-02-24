@@ -6,6 +6,11 @@
     <meta name="Description" content="Page d'accueil du site RUX de Steven Harris.">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/png" href="assets/images/logoIOLCE.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <script src="assets/js/javascript.js" defer></script>
 
     <!-- Twitter Card data -->
@@ -29,8 +34,64 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-    <h1>RUX le sang</h1>
-    <p>Le sang de tes morts</p>
+<body id="body" class="body__grid">
+    <header class="header">
+        <div class="position">
+        <div id="menu" class="menu">
+            <a href="index.html"><img class="logo" src="assets/images/logorux.svg" alt="Logo du site."></a>
+            <ul id="burger" class="bar">
+                <li class="bar__1"></li>
+                <li class="bar__2"></li>
+                <li class="bar__3"></li>
+            </ul>
+        </div>
+        <nav id="nav" class="nav nav__none">
+            <ul class="nav__el">
+                <li><a class="nav__el--a nav__actual" href="index.html">Case-Study</a></li>
+                <li><a class="nav__el--a" href="uikit.html">UI-kit</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <main class="main main__grid">
+    <h1 class="title title__big">Case-Study</h1>
+    <h2 class="title title__med">Nos "vacances"</h1>
+    <p class="texte">Les prémices de RUX ont débuté avant la période de blocus. On devait réaliser une vidéo d’un test utilisateur sur le site de l’iMAL. Une fois la vidéo enregistrée, on devait l’analyser et réaliser un <a class="link" href="https://medium.com/@bobeponge1999/analyse-site-post-rux-b1ec57fddcc4">article médium.</a>
+
+            Après ce travail d’analyse, on a tous pu prendre pleinement connaissance du site de l’iMAL. Nous savions à peu prêt tout ce qui n’allait pas sur le site. Notre conclusion était que le site était surchargé et que les infos utiles étaient noyés dans le site.
+    </p>
+    </main>
+    <section class="section section--color section--first main__grid">
+        <h2 class="title title__med title__med--section">Retour en cours</h1>
+            <img class="section__img" src="assets/images/teams.png" srcset="assets/images/teams@2x.png" alt="Capture d'écran de l'application Teams.">
+        <p class="texte texte__img">Au premier cours sur RUX, on s’est réparti en équipe de 4. Je me suis mis avec Anais, Tanguy et Maxime. On a déjà fait des travaux de groupe et ça c’était bien passé. 
+            
+            La première étape était de réaliser un petit résumé du test utilisateur que chaque groupe a réalisé. On s’est mis sur discord pour en parler et le rédiger, cela ne nous a pas pris énormément de temps. 
+            
+            Le résumé donne ceci&nbsp;: 
+            
+            <span class="texte__italic">“L’iMAL est un centre créatif situé à Bruxelles qui organise des événements et des ateliers en rapport avec la création artistique allant jusqu’au domaine plus scientifique. Ils mettent à disposition leurs machines aux particuliers pour des créations personnelles.”</span>        </p>
+    </section>
+
+    <section class="section section--second main__grid">
+        <h2 class="title title__med title__med--section">Réflexion au réveil</h1>
+            <img class="section__img section__img--bottom" src="assets/images/analyse_imal.png" srcset="assets/images/analyse_imal@2x.png" alt="Capture d'écran de l'analyse de l'Imal.">
+        <p class="texte texte__img--first">Au deuxième cours qui se déroulait de bon matin. Nous avons chacun fait un inventaire de contenu de deux pages du site. Il fallait regrouper chaque élément des pages et dire leur utilité ou leur fonction. On les a toutes passées en revue une fois que tout le monde avait fini. Ça m'a aidé à mieux visualiser la structure globale du site.</p>
+    </section>
+
+    <section class="section section--color section--third main__grid">
+        <h2 class="title title__med title__med--section">Le choix décisif</h1>
+            <img class="section__img" src="assets/images/vote.png" srcset="assets/images/vote@2x.png" alt="Capture d'écran du vote des top tasks.">
+        <p class="texte texte__img">Dans la deuxième heure de ce cours, nous avons listé toutes les différentes actions qu’il était possible de réaliser sur le site. Une fois listée, place à la démocratie. Les tasks les plus votés sont celles qui sont choisis pour la suite du travail. Les groupes devaient se répartir les tâches élus. Mon groupe a pris la recherche, qui au premier abord semble être un élément très simple du site mais qui au final cache bien son jeu.
+            
+            Après la répartition, mon groupe et moi avons réfléchi sur les <a class="link" href="https://docs.google.com/document/d/1tlgNsKSk9HLke6lVWTOExE3M37jV1OSxeahG36nmrvg/edit?usp=sharing">besoins utilisateurs</a> de la recherche. On ne s’est pas contenté de dire “ça recherche” nous avons vraiment essayé de pousser l’analyse mais on a remarqué qu’on tourne vite en rond. En plus des besoins utilisateurs, nous avons listé des améliorations qui pouvaient aider l’utilisateur avec la recherche.
+            </p>
+    </section>
+
+    <section class="section section--fourth main__grid">
+        <h2 class="title title__med title__med--section">Audit</h1>
+            <img class="section__img section__img--bottom" src="assets/images/audit.png" srcset="assets/images/audit@2x.png" alt="Capture d'écran de l'analyse de l'Imal.">
+        <p class="texte texte__img--first">Cette étape du travail m’a un peu donné du mal. Nous n’avions qu’une heure pour réaliser l’analyse de notre fonctionnalité (pour moi la recherche) sur 5 sites différents. Ce qui donne environ 12 minutes par site. Le plus dur dans tout ça était de trouver les sites à analyser. Quasiment tous les sites utilisent une barre de recherche donc j’ai eu un peu de mal pour faire mon choix. J’ai finalement réussi à finir mon <a class="link" href="https://docs.google.com/document/d/1wnnLh3n1P_IB25ZM9Ss7ATZZI33sOG6U7i7UJG1hdUE/edit">analyse</a> dans les temps.</p>
+    </section>
 </body>
 </html>
